@@ -259,9 +259,9 @@
 <!-- Project 2: JORDS -->
 <article class="bg-[#111116] border border-orange-500/40 rounded-2xl p-6 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden">
 <div class="w-full h-48 rounded-xl overflow-hidden mb-5 bg-[#1a1a22] border border-gray-800">
-<a href="https://lh3.googleusercontent.com/aida-public/AB6AXuCw4X3msnVtrDa2zjJyJmDa2PAhkXAceIg9__6I3XTpz7BFUDkGGA4VaBcyC_maLP-c1rYXACU_9K6_s8jrPJPeqgnwrJbpPIM73NTxEuMIV4ZM8LLRjnvPgwSDcXu-IogkgS29SQJDlbnOECT25pH9RmyLqTdDTeo7yyzvBA8Lkw5fpIEVLyxBdlULzDwvlOcBIsUZ_Mrl2n2kQSS6pdNdeE4urrS_VEUTPQEchmv_RZGnhu_tEIFk" target="_blank" rel="noopener" aria-label="Open JORDS hardware photo">
+<button type="button" class="block w-full h-full cursor-zoom-in" onclick="openJordsModal()" aria-label="Preview JORDS hardware photo">
 <img alt="JORDS Waste Classifier Hardware Prototype - Enclosure with LCD and Camera" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCw4X3msnVtrDa2zjJyJmDa2PAhkXAceIg9__6I3XTpz7BFUDkGGA4VaBcyC_maLP-c1rYXACU_9K6_s8jrPJPeqgnwrJbpPIM73NTxEuMIV4ZM8LLRjnvPgwSDcXu-IogkgS29SQJDlbnOECT25pH9RmyLqTdDTeo7yyzvBA8Lkw5fpIEVLyxBdlULzDwvlOcBIsUZ_Mrl2n2kQSS6pdNdeE4urrS_VEUTPQEchmv_RZGnhu_tEIFk">
-</a>
+</button>
 </div>
 <div class="flex items-center gap-2 mb-2">
 <span class="px-2.5 py-0.5 rounded-full text-[10px] font-semibold uppercase bg-gray-800 text-gray-200">Embedded Systems</span>
@@ -515,6 +515,16 @@
 </div></div>
 </footer>
 <!-- END: Footer -->
+<!-- BEGIN: JORDS Hardware Photo Modal -->
+<div aria-labelledby="jordsModalTitle" aria-modal="true" class="fixed inset-0 z-[100] items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-md transition-opacity duration-300 hidden" id="jordsModal" role="dialog" aria-hidden="true">
+<div class="fixed inset-0" onclick="closeJordsModal()"></div>
+<div class="relative z-10 w-full max-w-5xl max-h-[92vh] bg-[#111116] border border-orange-500/50 rounded-2xl shadow-[0_0_60px_rgba(255,94,0,0.35)] flex flex-col overflow-hidden">
+<div class="px-6 py-4 border-b border-gray-800/90 flex items-center justify-between bg-[#16161c]"><div class="flex items-center gap-3"><span class="w-3 h-3 rounded-full bg-[#FF5E00] shadow-[0_0_8px_#FF5E00]"></span><div><h3 id="jordsModalTitle" class="text-base sm:text-lg font-bold text-white tracking-tight">JORDS: Multiple Waste Classifier</h3><p class="text-xs text-gray-400">Hardware Prototype Preview</p></div></div><button type="button" aria-label="Close JORDS preview" class="w-9 h-9 rounded-full bg-black/50 border border-gray-700 text-gray-300 hover:text-white hover:border-[#FF5E00] hover:bg-[#FF5E00]/20 flex items-center justify-center transition-all" onclick="closeJordsModal()"><i class="fa-solid fa-xmark text-lg"></i></button></div>
+<div class="p-4 sm:p-8 overflow-y-auto flex items-center justify-center bg-black/40 min-h-[360px]"><img alt="JORDS Waste Classifier Hardware Prototype - Enclosure with LCD and Camera" class="max-h-[70vh] max-w-full object-contain rounded-xl shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCw4X3msnVtrDa2zjJyJmDa2PAhkXAceIg9__6I3XTpz7BFUDkGGA4VaBcyC_maLP-c1rYXACU_9K6_s8jrPJPeqgnwrJbpPIM73NTxEuMIV4ZM8LLRjnvPgwSDcXu-IogkgS29SQJDlbnOECT25pH9RmyLqTdDTeo7yyzvBA8Lkw5fpIEVLyxBdlULzDwvlOcBIsUZ_Mrl2n2kQSS6pdNdeE4urrS_VEUTPQEchmv_RZGnhu_tEIFk"></div>
+<div class="px-6 py-3.5 border-t border-gray-800/90 bg-[#141419] flex items-center justify-between text-xs text-gray-400"><span><i class="fa-solid fa-circle-info text-[#FF5E00] mr-2"></i>Press <kbd class="px-1.5 py-0.5 bg-black/60 rounded border border-gray-700 text-gray-300 font-mono text-[10px]">Esc</kbd> or click outside to dismiss</span><button type="button" class="px-4 py-1.5 rounded-full bg-[#FF5E00] hover:bg-[#FF7315] text-white font-semibold transition-colors shadow-[0_0_12px_rgba(255,94,0,0.4)]" onclick="closeJordsModal()">Close Preview</button></div>
+</div>
+</div>
+<!-- END: JORDS Hardware Photo Modal -->
 <!-- BEGIN: AQUILA Hardware Architecture Modal -->
 <div aria-labelledby="modalTitle" aria-modal="true" class="fixed inset-0 z-[100] items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-md transition-opacity duration-300 hidden" data-current-index="0" id="aquilaModal" role="dialog">
 <!-- Click Outside Backdrop Handler -->
@@ -646,6 +656,14 @@
     }
   }
 
+  function openJordsModal() {
+    showModal('jordsModal');
+  }
+
+  function closeJordsModal() {
+    hideModal('jordsModal');
+  }
+
   function openAquilaModal() {
     showModal('aquilaModal');
     selectAquilaSlide(Number(document.getElementById('aquilaModal').dataset.currentIndex || 0));
@@ -734,6 +752,7 @@
 
   document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
+      closeJordsModal();
       closeAquilaModal();
       closePosModal();
     }
