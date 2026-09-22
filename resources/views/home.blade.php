@@ -259,7 +259,9 @@
 <!-- Project 2: JORDS -->
 <article class="bg-[#111116] border border-orange-500/40 rounded-2xl p-6 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden">
 <div class="w-full h-48 rounded-xl overflow-hidden mb-5 bg-[#1a1a22] border border-gray-800">
+<a href="https://lh3.googleusercontent.com/aida-public/AB6AXuCw4X3msnVtrDa2zjJyJmDa2PAhkXAceIg9__6I3XTpz7BFUDkGGA4VaBcyC_maLP-c1rYXACU_9K6_s8jrPJPeqgnwrJbpPIM73NTxEuMIV4ZM8LLRjnvPgwSDcXu-IogkgS29SQJDlbnOECT25pH9RmyLqTdDTeo7yyzvBA8Lkw5fpIEVLyxBdlULzDwvlOcBIsUZ_Mrl2n2kQSS6pdNdeE4urrS_VEUTPQEchmv_RZGnhu_tEIFk" target="_blank" rel="noopener" aria-label="Open JORDS hardware photo">
 <img alt="JORDS Waste Classifier Hardware Prototype - Enclosure with LCD and Camera" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCw4X3msnVtrDa2zjJyJmDa2PAhkXAceIg9__6I3XTpz7BFUDkGGA4VaBcyC_maLP-c1rYXACU_9K6_s8jrPJPeqgnwrJbpPIM73NTxEuMIV4ZM8LLRjnvPgwSDcXu-IogkgS29SQJDlbnOECT25pH9RmyLqTdDTeo7yyzvBA8Lkw5fpIEVLyxBdlULzDwvlOcBIsUZ_Mrl2n2kQSS6pdNdeE4urrS_VEUTPQEchmv_RZGnhu_tEIFk">
+</a>
 </div>
 <div class="flex items-center gap-2 mb-2">
 <span class="px-2.5 py-0.5 rounded-full text-[10px] font-semibold uppercase bg-gray-800 text-gray-200">Embedded Systems</span>
