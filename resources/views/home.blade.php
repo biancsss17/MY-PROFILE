@@ -319,6 +319,12 @@
 <p class="text-xs text-gray-300 leading-relaxed mb-4 flex-1">
       A collection of responsive, user-focused web applications built with clean interfaces, practical workflows, and deployment-ready foundations for real-world users and businesses.
     </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-5">
+<a class="inline-flex items-center justify-between gap-2 rounded-lg bg-black/40 border border-gray-800 px-2.5 py-2 text-[11px] text-gray-200 hover:text-white hover:border-[#FF5E00]/70 transition-colors" href="https://ezpickle-production.up.railway.app/" target="_blank" rel="noopener noreferrer"><span class="flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-[#FF5E00]"></i> EZPickle</span><i class="fa-solid fa-chevron-right text-[9px] text-gray-500"></i></a>
+<a class="inline-flex items-center justify-between gap-2 rounded-lg bg-black/40 border border-gray-800 px-2.5 py-2 text-[11px] text-gray-200 hover:text-white hover:border-[#FF5E00]/70 transition-colors" href="https://visitors-system-pru5-u2ky.onrender.com/" target="_blank" rel="noopener noreferrer"><span class="flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-[#FF5E00]"></i> Visitors System</span><i class="fa-solid fa-chevron-right text-[9px] text-gray-500"></i></a>
+<a class="inline-flex items-center justify-between gap-2 rounded-lg bg-black/40 border border-gray-800 px-2.5 py-2 text-[11px] text-gray-200 hover:text-white hover:border-[#FF5E00]/70 transition-colors" href="https://fysd23-election.onrender.com/home" target="_blank" rel="noopener noreferrer"><span class="flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-[#FF5E00]"></i> FYSD23 Election</span><i class="fa-solid fa-chevron-right text-[9px] text-gray-500"></i></a>
+<a class="inline-flex items-center justify-between gap-2 rounded-lg bg-black/40 border border-gray-800 px-2.5 py-2 text-[11px] text-gray-200 hover:text-white hover:border-[#FF5E00]/70 transition-colors" href="https://easybiz-xuf4.onrender.com/" target="_blank" rel="noopener noreferrer"><span class="flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-[#FF5E00]"></i> EasyBiz</span><i class="fa-solid fa-chevron-right text-[9px] text-gray-500"></i></a>
+</div>
 <div class="flex flex-wrap gap-1.5 mb-5">
 <span class="px-2 py-0.5 rounded bg-black/40 border border-gray-800 text-[11px] text-orange-400">Laravel</span>
 <span class="px-2 py-0.5 rounded bg-black/40 border border-gray-800 text-[11px] text-orange-400">PHP</span>
