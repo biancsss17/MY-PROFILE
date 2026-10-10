@@ -208,17 +208,17 @@
 </section>
 <!-- END: ServicesSection -->
 <!-- BEGIN: ProjectsSection -->
-<section class="py-24 relative bg-[#08080A]" id="projects"><div class="max-w-7xl mx-auto px-6">
+<section class="py-28 relative bg-[#08080A] overflow-hidden" id="projects"><div class="absolute -top-40 right-0 w-96 h-96 rounded-full bg-orange-500/10 blur-3xl pointer-events-none"></div><div class="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-cyan-500/5 blur-3xl pointer-events-none"></div><div class="max-w-7xl mx-auto px-6 relative">
 <!-- Section Header -->
-<div class="text-center mb-16">
-<div class="inline-block px-3.5 py-1 rounded-full bg-orange-600/10 border border-orange-500/30 text-[#FF5E00] text-xs font-semibold uppercase tracking-wider mb-2">Portfolio Work</div>
-<h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Featured Projects</h2>
-<div class="w-12 h-1 bg-[#FF5E00] mx-auto mt-3 rounded-full shadow-[0_0_10px_#FF5E00]"></div>
+<div class="max-w-3xl mb-14">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-600/10 border border-orange-500/30 text-[#FF8A4C] text-xs font-semibold uppercase tracking-[0.18em] mb-4"><span class="w-1.5 h-1.5 rounded-full bg-[#FF5E00] shadow-[0_0_8px_#FF5E00]"></span> Selected Work</div>
+<h2 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">Projects built to be <span class="text-[#FF6A1A]">useful</span>.</h2>
+<p class="mt-4 max-w-2xl text-sm sm:text-base text-gray-400 leading-relaxed">A selection of intelligent systems, business tools, and web applications designed to turn real requirements into clear, reliable digital experiences.</p>
 </div>
 <!-- Project Cards Grid -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-7">
 <!-- Project 1: AQUILA (Interactive Clickable Card & Lightbox Trigger) -->
-<article class="cursor-pointer bg-[#111116] border border-orange-500/50 rounded-2xl p-6 flex flex-col hover:border-orange-500 hover:shadow-[0_0_35px_rgba(255,94,0,0.35)] transition-all duration-300 group relative overflow-hidden ring-1 ring-orange-500/20 hover:ring-orange-500/60" onclick="openAquilaModal()">
+<article class="cursor-pointer bg-[#111116]/95 border border-orange-500/50 rounded-3xl p-7 flex flex-col hover:border-orange-500 hover:shadow-[0_0_35px_rgba(255,94,0,0.35)] transition-all duration-300 group relative overflow-hidden ring-1 ring-orange-500/20 hover:ring-orange-500/60" onclick="openAquilaModal()">
 <!-- Click indicator banner -->
 <div class="relative w-full h-48 rounded-xl overflow-hidden mb-5 bg-[#1a1a22] border border-gray-800 group-hover:border-orange-500/50 transition-colors">
 <img alt="AQUILA Thesis Capstone Preview - Smart Waste Monitoring System Hardware Setup" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnfKh97A-5lTHw7fBDAyf9PTtHGPcEjfpwv30kI-Lb17hrpj5XVkwIGPMwKkkBoP4x26r8WX1WKLMcj7lzbtV9-d15ysrjGOeeuIoDC366k9Tox7H9ATCtFx0PAnqNtx86-ain1a6Wtto_uJ-l_faPQ7WN9zorm9Hi4M25rIJ9TtgICZtjlFARU5REH_h0xFfHpyL7LzXKKyfUXjVF3aNFeMkzUG-9SAjfbXm7t5FHS6BZq0GRbxUZ">
@@ -257,7 +257,7 @@
 </div>
 </article>
 <!-- Project 2: JORDS -->
-<article class="bg-[#111116] border border-orange-500/40 rounded-2xl p-6 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden">
+<article class="bg-[#111116]/95 border border-orange-500/40 rounded-3xl p-7 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden">
 <div class="w-full h-48 rounded-xl overflow-hidden mb-5 bg-[#1a1a22] border border-gray-800">
 <button type="button" class="block w-full h-full cursor-zoom-in" onclick="openJordsModal()" aria-label="Preview JORDS hardware photo">
 <img alt="JORDS Waste Classifier Hardware Prototype - Enclosure with LCD and Camera" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCw4X3msnVtrDa2zjJyJmDa2PAhkXAceIg9__6I3XTpz7BFUDkGGA4VaBcyC_maLP-c1rYXACU_9K6_s8jrPJPeqgnwrJbpPIM73NTxEuMIV4ZM8LLRjnvPgwSDcXu-IogkgS29SQJDlbnOECT25pH9RmyLqTdDTeo7yyzvBA8Lkw5fpIEVLyxBdlULzDwvlOcBIsUZ_Mrl2n2kQSS6pdNdeE4urrS_VEUTPQEchmv_RZGnhu_tEIFk">
@@ -284,7 +284,7 @@
 </div>
 </article>
 <!-- Project 3: Point of Sale (POS) -->
-<article class="bg-[#111116] border border-orange-500/40 rounded-2xl p-6 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden cursor-pointer" onclick="openPosModal()">
+<article class="bg-[#111116]/95 border border-orange-500/40 rounded-3xl p-7 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden cursor-pointer" onclick="openPosModal()">
 <div class="relative w-full h-48 rounded-xl overflow-hidden mb-5 bg-[#1a1a22] border border-gray-800 group-hover:border-orange-500/50 transition-colors"><img alt="Auto and Tire Supply - POS &amp; Inventory System Interface" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAg-y3d3_o74YJoe-0X1FHZgUlLBYxnyfssIq2XnCZzY6QW0p9peOJOwnx0Mpt-gzWcr9gtOGL725emAt6f-397cyjw1sM-XDTf4v5g1lb6nJL0dCkAwtQtYHZiito5ODn33DkisKe5OFXl1AnU1VucTXkP7rR67MieOckuo6t_01vxYbJUn98C9AtopAwNuvMyg5rSdZgEAVYnfmTdQiBRtJPE5a0W2qBlqkLGdA8SAxwccZbcXy3k"><div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex items-end justify-between p-3 group-hover:opacity-100 transition-opacity"><span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#FF5E00] text-white shadow-lg shadow-orange-500/40"><i class="fa-solid fa-magnifying-glass-plus"></i> View System UI (11 Screens)</span><span class="w-8 h-8 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white text-xs border border-white/20 group-hover:scale-110 transition-transform"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div></div>
 <div class="flex items-center gap-2 mb-2">
 <span class="px-2.5 py-0.5 rounded-full text-[10px] font-semibold uppercase bg-gray-800 text-gray-200">Software Design</span>
@@ -303,7 +303,7 @@
 <div class="mt-auto"><div class="pt-3 border-t border-gray-800/80 flex items-center justify-between"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-[#FF5E00]"><i class="fa-solid fa-check-circle"></i> Auto &amp; Tire Supply POS</span></div></div>
 </article>
 <!-- Project 4: Web App Projects -->
-<article class="bg-[#111116] border border-orange-500/40 rounded-2xl p-6 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden">
+<article class="bg-[#111116]/95 border border-orange-500/40 rounded-3xl p-7 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden">
 <div class="relative w-full h-48 rounded-xl overflow-hidden mb-5 bg-gradient-to-br from-[#1a1a22] via-[#17212b] to-[#0d3440] border border-gray-800 group-hover:border-orange-500/50 transition-colors flex items-center justify-center">
 <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top_right,_#FF5E00,_transparent_55%)]"></div>
 <div class="relative w-24 h-20 rounded-xl border-2 border-orange-400/80 bg-[#111116]/90 shadow-[0_0_30px_rgba(255,94,0,0.3)] flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
@@ -319,6 +319,7 @@
 <p class="text-xs text-gray-300 leading-relaxed mb-4 flex-1">
       A collection of responsive, user-focused web applications built with clean interfaces, practical workflows, and deployment-ready foundations for real-world users and businesses.
     </p>
+<div class="flex items-center gap-2 mb-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-gray-500"><i class="fa-solid fa-link text-[#FF5E00]"></i> Live builds</div>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-5">
 <a class="inline-flex items-center justify-between gap-2 rounded-lg bg-black/40 border border-gray-800 px-2.5 py-2 text-[11px] text-gray-200 hover:text-white hover:border-[#FF5E00]/70 transition-colors" href="https://ezpickle-production.up.railway.app/" target="_blank" rel="noopener noreferrer"><span class="flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-[#FF5E00]"></i> EZPickle</span><i class="fa-solid fa-chevron-right text-[9px] text-gray-500"></i></a>
 <a class="inline-flex items-center justify-between gap-2 rounded-lg bg-black/40 border border-gray-800 px-2.5 py-2 text-[11px] text-gray-200 hover:text-white hover:border-[#FF5E00]/70 transition-colors" href="https://visitors-system-pru5-u2ky.onrender.com/" target="_blank" rel="noopener noreferrer"><span class="flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square text-[#FF5E00]"></i> Visitors System</span><i class="fa-solid fa-chevron-right text-[9px] text-gray-500"></i></a>
