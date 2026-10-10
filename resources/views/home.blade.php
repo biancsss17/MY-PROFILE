@@ -216,7 +216,7 @@
 <div class="w-12 h-1 bg-[#FF5E00] mx-auto mt-3 rounded-full shadow-[0_0_10px_#FF5E00]"></div>
 </div>
 <!-- Project Cards Grid -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 <!-- Project 1: AQUILA (Interactive Clickable Card & Lightbox Trigger) -->
 <article class="cursor-pointer bg-[#111116] border border-orange-500/50 rounded-2xl p-6 flex flex-col hover:border-orange-500 hover:shadow-[0_0_35px_rgba(255,94,0,0.35)] transition-all duration-300 group relative overflow-hidden ring-1 ring-orange-500/20 hover:ring-orange-500/60" onclick="openAquilaModal()">
 <!-- Click indicator banner -->
@@ -301,6 +301,33 @@
 <span class="px-2 py-0.5 rounded bg-black/40 border border-gray-800 text-[11px] text-orange-400">Transaction Logic</span>
 </div>
 <div class="mt-auto"><div class="pt-3 border-t border-gray-800/80 flex items-center justify-between"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-[#FF5E00]"><i class="fa-solid fa-check-circle"></i> Auto &amp; Tire Supply POS</span></div></div>
+</article>
+<!-- Project 4: Web App Projects -->
+<article class="bg-[#111116] border border-orange-500/40 rounded-2xl p-6 flex flex-col hover:border-orange-500 hover:shadow-[0_0_30px_rgba(255,94,0,0.25)] transition-all duration-300 group relative overflow-hidden">
+<div class="relative w-full h-48 rounded-xl overflow-hidden mb-5 bg-gradient-to-br from-[#1a1a22] via-[#17212b] to-[#0d3440] border border-gray-800 group-hover:border-orange-500/50 transition-colors flex items-center justify-center">
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top_right,_#FF5E00,_transparent_55%)]"></div>
+<div class="relative w-24 h-20 rounded-xl border-2 border-orange-400/80 bg-[#111116]/90 shadow-[0_0_30px_rgba(255,94,0,0.3)] flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
+<i class="fa-solid fa-window-maximize text-3xl text-[#FF5E00]"></i>
+</div>
+<span class="absolute bottom-3 left-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#FF5E00] text-white shadow-lg shadow-orange-500/40"><i class="fa-solid fa-globe"></i> Web Applications</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded-full text-[10px] font-semibold uppercase bg-gray-800 text-gray-200">Web Development</span>
+<span class="text-xs text-gray-400">2024 – Present</span>
+</div>
+<h3 class="text-lg font-bold text-white mb-2 group-hover:text-orange-400 transition-colors">Web App Projects</h3>
+<p class="text-xs text-gray-300 leading-relaxed mb-4 flex-1">
+      A collection of responsive, user-focused web applications built with clean interfaces, practical workflows, and deployment-ready foundations for real-world users and businesses.
+    </p>
+<div class="flex flex-wrap gap-1.5 mb-5">
+<span class="px-2 py-0.5 rounded bg-black/40 border border-gray-800 text-[11px] text-orange-400">Laravel</span>
+<span class="px-2 py-0.5 rounded bg-black/40 border border-gray-800 text-[11px] text-orange-400">PHP</span>
+<span class="px-2 py-0.5 rounded bg-black/40 border border-gray-800 text-[11px] text-orange-400">JavaScript</span>
+<span class="px-2 py-0.5 rounded bg-black/40 border border-gray-800 text-[11px] text-orange-400">Responsive UI</span>
+</div>
+<div class="mt-auto">
+<span class="inline-flex items-center gap-1.5 text-xs font-semibold text-[#FF5E00]"><i class="fa-solid fa-check-circle"></i> Scalable Web Solutions</span>
+</div>
 </article>
 </div>
 </div></section>
