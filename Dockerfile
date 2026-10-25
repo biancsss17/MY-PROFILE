@@ -1,7 +1,7 @@
 FROM php:8.3-cli
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends git unzip libzip-dev \
+    && apt-get install -y --no-install-recommends git unzip libzip-dev libonig-dev \
     && docker-php-ext-install mbstring pdo_mysql zip \
     && rm -rf /var/lib/apt/lists/*
 
